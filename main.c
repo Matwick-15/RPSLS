@@ -115,7 +115,7 @@ int main() {
     // printer stilingen
     printf("stilinger er B %d : M %d \n", Bpoint, Mpoint);
     // tjerker om om der er nogen der har fået nok point til at vinde
-    if (Bpoint == 3 || Mpoint == 3) {
+    if (Bpoint == 5 || Mpoint == 5) {
       // tjeker hvem der har vundet og print en pasende besked
       if (Bpoint == 3) {
         printf("tillykke med sejeren 🥇 🎉\n");
