@@ -117,7 +117,7 @@ int main() {
     // tjerker om om der er nogen der har fået nok point til at vinde
     if (Bpoint == 5 || Mpoint == 5) {
       // tjeker hvem der har vundet og print en pasende besked
-      if (Bpoint == 3) {
+      if (Bpoint == 5) {
         printf("tillykke med sejeren 🥇 🎉\n");
       } else {
         printf("whomp whomp du tabte 😢\n");
